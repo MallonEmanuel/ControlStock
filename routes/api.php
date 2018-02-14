@@ -13,6 +13,13 @@ use Illuminate\Http\Request;
 |
 */
 
+use App\Articulo;
+
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
+});
+
+Route::get('articulos/{id}', function($id){
+    $articulos = Articulo::where('id',$id)->get();
+    dd($articulos);
 });

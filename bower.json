@@ -1,0 +1,24 @@
+{
+  "name": "ControlStock",
+  "description": "Proyecto de control de stock",
+  "main": "welcome.blade.php",
+  "authors": [
+    "emanuel mallon <emanuelsm18@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/MallonEmanuel/ControlStock",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^1.12.4",
+    "bootstrap": "~3.3.6",
+    "datatables.net": "^1.10.16",
+    "datatables.net-bs": "~1.10.15",
+    "toastr": "^2.1.3"
+  }
+}
